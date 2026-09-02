@@ -15,4 +15,3 @@ for item in inventory:
         on_sale = True
     inventory[item] =  [current_stock, min_stock, restock_amount, on_sale]
 print(inventory)
-    
